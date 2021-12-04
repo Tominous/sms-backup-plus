@@ -206,7 +206,7 @@ public class App extends Application {
 
     private void setupStrictMode() {
         StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
-//                    .detectDiskReads()
+            .detectDiskReads()
             .detectDiskWrites()
             .detectNetwork()
             .penaltyFlashScreen()
